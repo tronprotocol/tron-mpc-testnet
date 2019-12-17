@@ -39,7 +39,7 @@ This document is a guide to participating in Multi-party Computation(MPC) phase 
 9. Send your result to TRON. Send the file `new_params` by keybase and `hash` by email. Feel free to state your os version in email. E.g. windows 10/centos 7.
 
 ## Dependency
-We reuse the phase 2 result of zcash https://storage.googleapis.com/sapling-mpc/params as the first `params` of the process. At the end of process, we generate the random beacon by using one Bitcoin block's hash as the seed of pseudo random number generator; The block's height will not be determined until last participant completes his operation. After we verify all participants' contribution, we will publish all hash on project [wiki](https://github.com/tronprotocol/tron-mpc-testnet/wiki) page.
+We reuse the phase 2 result of zcash https://storage.googleapis.com/sapling-mpc/params as the first `params` of the process. At the end of process, we generate the random beacon by using one Bitcoin block's hash as the seed of pseudo random number generator; The block's height will not be determined until last participant completes his operation. After we verify all participants' contribution, we will publish all hash on project [wiki](https://github.com/tronprotocol/tron-mpc-testnet/wiki) page. 
 
 ## License
 
