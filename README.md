@@ -2,7 +2,7 @@
 
 This document is a guide to participating in Multi-party Computation(MPC) phase 2 and verifying the result.
 
-## What should I do    ? 
+## What should I do   ? 
 
 1. Send an email to Brown.Jiang@tron.network to apply to participate in MPC. Please introduce yourself in the email.
 
