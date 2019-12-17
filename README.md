@@ -32,14 +32,14 @@ This document is a guide to participating in Multi-party Computation(MPC) phase 
 # cargo run --release --bin compute
 ```
 &emsp;&emsp;When it’s finished, you will get a `new_params` file and a `hash` which you will need to memorize. You can find the `hash` and `new_params` as shown below:
-![](https://raw.githubusercontent.com/tronprotocol/documentation-EN/master/docs_without_index/MPC/sapling-output.jpg)
+![](https://raw.githubusercontent.com/tronprotocol/documentation-en/master/docs_without_index/internal-test/sapling-output.jpg)
 
 &emsp;&emsp;Notice: this process could take one to four hours according to your hardware capacity and occupy 1.5 ~ 2GB of memory.
 
 9. Send your result to TRON. Send the file `new_params` by keybase and `hash` by email. Feel free to state your os version in email. E.g. windows 10/centos 7.
 
 ## Dependency
-We reuse the phase 2 result of zcash https://storage.googleapis.com/sapling-mpc/params as the first `params` of the process. At the end of process, we generate the random beacon by using one Bitcoin block's hash as the seed of pseudo random number generator; The block's height will not be determined until last participant completes his operation.
+We reuse the phase 2 result of zcash https://storage.googleapis.com/sapling-mpc/params as the first `params` of the process. At the end of process, we generate the random beacon by using one Bitcoin block's hash as the seed of pseudo random number generator; The block's height will not be determined until last participant completes his operation. After we verify all participants' contribution, we will publish all hash on project [wiki](https://github.com/tronprotocol/tron-mpc-testnet/wiki) page.
 
 ## License
 
