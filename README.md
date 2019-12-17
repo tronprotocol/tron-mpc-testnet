@@ -23,7 +23,7 @@ This document is a guide to participating in Multi-party Computation(MPC) phase 
 
 7. Obtain the source code of project sapling-mpc:
 ```
-# git clone https://github.com/tronprotocol/sapling-mpc
+# git clone https://github.com/tronprotocol/tron-mpc-testnet
 ```
 &emsp;&emsp;If git has not been installed on your computer, please refer to [git](https://git-scm.com/downloads) first.
 
