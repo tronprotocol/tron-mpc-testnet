@@ -21,7 +21,7 @@ This document is a guide to participating in Multi-party Computation(MPC) phase 
 
 &emsp;&emsp;If you are running on windows, please go to [rust](https://www.rust-lang.org/learn/get-started) homepage for installation instruction.
 
-7. Obtain the source code of project sapling-mpc:
+7. Obtain the source code of project tron-mpc-testnet:
 ```
 # git clone https://github.com/tronprotocol/tron-mpc-testnet
 ```
