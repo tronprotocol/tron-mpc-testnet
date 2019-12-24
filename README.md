@@ -27,7 +27,7 @@ This document is a guide to participating in Multi-party Computation(MPC) phase 
 ```
 &emsp;&emsp;If git has not been installed on your computer, please refer to [git](https://git-scm.com/downloads) first.
 
-8. Put `params` file in the sapling-mpc directory, then run:
+8. Put `params` file in the tron-mpc-testnet directory, then run:
 ```
 # cargo run --release --bin compute
 ```
