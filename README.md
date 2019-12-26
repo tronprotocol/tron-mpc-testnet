@@ -51,7 +51,7 @@ We reuse the phase 2 result of zcash https://storage.googleapis.com/sapling-mpc/
 
 ## How to verify my contribution ?
 
-After all participants finish the process, we will announce the final params at [final params](https://mpcfilepub.s3.amazonaws.com/tron-mpc-testnet/new_params) . Place the params in tron-mpc-test, and then run:
+After all participants finish the process, we will announce [final params](https://mpcfilepub.s3.amazonaws.com/tron-mpc-testnet/params) at aws. Place the params in tron-mpc-test, and then run:
 ```
 # cargo run --release --features="verification" --bin verify
 ```
