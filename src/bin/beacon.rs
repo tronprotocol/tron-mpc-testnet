@@ -37,8 +37,8 @@ fn main() {
         use crypto::sha2::Sha256;
         use crypto::digest::Digest;
 
-        // Place block hash here (block number #614665 2019-12-25 23:52:19)
-        let mut beacon_value: [u8; 32] = hex!("0000000000000000027f22a634194e64a3925f014b64e8b174b2a44a14e6c759");
+        // Place block hash here (block number #609783 of Bitcoin 2019-12-26 10:16:38)
+        let mut beacon_value: [u8; 32] = hex!("0000000000000000000826cf0b0e0ba624bc01c33ed94d414dee0ddd15152f90");
 
         // Performs 2^n hash iterations over it
         const N: usize = 32;
@@ -59,9 +59,6 @@ fn main() {
             h.input(&beacon_value);
             h.result(&mut beacon_value);
         }
-
-        //// Place beacon value here (2^42 SHA256 hash of Bitcoin block hash #534861)
-        //let beacon_value: [u8; 32] = hex!("2bf41a959668e5b9b688e58d613b3dcc99ee159a880cf764ec67e6488d8b8af3");
 
         print!("Final result of beacon: ");
         for b in beacon_value.iter() {
