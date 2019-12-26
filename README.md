@@ -42,7 +42,7 @@ This document is a guide to participating in Multi-party Computation(MPC) phase 
 &emsp;&emsp;When it’s finished, you will get a `new_params` file and a `hash` which you will need to memorize. You can find the `hash` and `new_params` as shown below:
 ![](https://raw.githubusercontent.com/tronprotocol/documentation-en/master/docs_without_index/internal-test/sapling-output.jpg)
 
-&emsp;&emsp;Notice: this process could take 1 ~ 4 hours according to your hardware capacity and occupy 1.5 ~ 2GB of memory.
+&emsp;&emsp;Notice: this process could take 0.5 ~ 1 hours according to your hardware capacity and occupy 1.5 ~ 2GB of memory.
 
 9. Send your result to TRON. Send the file `new_params` by keybase and `hash` by email. Feel free to state your os version in email. E.g. windows 7/centos 7.
 
